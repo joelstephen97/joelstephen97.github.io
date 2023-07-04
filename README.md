@@ -1,2 +1,0 @@
-# joelstephen.github.io
-Website
