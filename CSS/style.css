@@ -157,6 +157,11 @@ footer{
     max-height: auto;
 }
 
+#portfolio_riot1{
+    max-width: 65%;
+    max-height: auto;
+}
+
 
 
 /* On screens that are 600px or less */
@@ -303,6 +308,16 @@ footer{
     
     footer{
         text-align: center;
+    }
+    
+    #portfolio_riot{
+        max-width: 75%;
+        max-height: auto;
+    }
+    
+    #portfolio_riot1{
+        max-width: 75%;
+        max-height: auto;
     }
     
 }
