@@ -152,6 +152,11 @@ footer{
     text-align: center;
 }
 
+#portfolio_riot{
+    max-width: 95%;
+    max-height: auto;
+}
+
 
 
 /* On screens that are 600px or less */
