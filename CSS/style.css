@@ -37,15 +37,16 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 0 0 0 6%
+    padding: 0 0 0 4%
 }
 nav ul li a{
-    color: #ffffff;
+    font-weight: 900;
+    color: #af4154;
     position: relative;
     padding: 0 0 0 0;
 }
 nav ul li a:hover{
-    color: #FF0000;
+    color: #af4154;
 }
 nav ul li a:after{
     content: "";
@@ -53,7 +54,7 @@ nav ul li a:after{
     left: 0;
     width: 0;
     height: 3px;
-    background: #FF0000;
+    background: #af4154;
     transition: 0.7s;
     bottom: 0;
 }
@@ -85,13 +86,13 @@ nav ul li a:hover:after{
     font-weight: 500;
     transition: all .4s ease-in-out;
     background-size: 152% 100%;
-    background: #FF0000;
+    background: #af4154;
     border: 3px solid #000000;
 }
 .buttons:hover{
     background: transparent;
-    border-color: #FF0000;
-    color: #FF0000;
+    border-color: #af4154;
+    color: #af4154;
 }
 .content{
 
@@ -104,7 +105,7 @@ nav ul li a:hover:after{
     letter-spacing: 4px;
     display: inline-block;
     margin-bottom: 20px;
-    background: #f36259;
+    background: #af4154;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -116,7 +117,7 @@ nav ul li a:hover:after{
     text-transform: inherit;
 }
 .content h3{
-    background:  #f36259 ;
+    background:  #af4154 ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 22px;
@@ -126,7 +127,7 @@ nav ul li a:hover:after{
 }
 
 .content h4{
-    background: #eed8c7;
+    background: #f1828d;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 22px;
@@ -142,7 +143,8 @@ nav ul li a:hover:after{
 
 
 #name-highlight{
-    color: #FF0000;
+    display: inline-block;
+    color: #af4154;
 }
 .content p{
     color: #ffffff;
@@ -175,6 +177,22 @@ footer{
     display: flex;
     flex-wrap: wrap;
     gap: 4vmin;
+}
+
+/* CSS animation to create the typewriter effect */
+@keyframes typewriter {
+    from { width: 0%; }
+    to { width: 100%; }
+}
+  
+/* Styling for the typewriter container */
+.typewriter {
+    
+    display: flex;
+    overflow: hidden;
+    border-right: 3px solid #af4154; /* Optional: Simulate cursor */
+    white-space: nowrap;
+    animation: typewriter 5s steps(40) forwards; /* Adjust duration (5s) and steps (40) as needed */
 }
 
 
@@ -278,7 +296,7 @@ footer{
         letter-spacing: 3px;
         display: inline-block;
         margin-bottom: 10px;
-        background: #f36259;
+        background: #af4154;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -290,7 +308,7 @@ footer{
         text-transform: inherit;
     }
     .content h3{
-        background: #f36259;
+        background: #af4154;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 20px;
@@ -300,7 +318,7 @@ footer{
     }
     
     .content h4{
-        background: #eed8c7;;
+        background: #f1828d;;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 16px;
@@ -350,5 +368,22 @@ footer{
         gap: 4vmin;
     }
     
+    /* CSS animation to create the typewriter effect */
+    @keyframes typewriter {
+        from { width: 0%; }
+        to { width: 100%; }
+    }
+    
+    /* Styling for the typewriter container */
+    .typewriter {
+        
+        display: flex;
+        overflow: hidden;
+        border-right: 3px solid #af4154; /* Optional: Simulate cursor */
+        white-space: nowrap;
+        animation: typewriter 5s steps(40) forwards; /* Adjust duration (5s) and steps (40) as needed */
+    }
+
+
     
 }
