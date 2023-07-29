@@ -46,7 +46,7 @@ nav ul li a{
     padding: 0 0 0 0;
 }
 nav ul li a:hover{
-    color: #af4154;
+    color: #FF0000;
 }
 nav ul li a:after{
     content: "";
@@ -54,7 +54,7 @@ nav ul li a:after{
     left: 0;
     width: 0;
     height: 3px;
-    background: #af4154;
+    background: #FF0000;
     transition: 0.7s;
     bottom: 0;
 }
@@ -231,7 +231,8 @@ footer{
         padding: 0 0 0 2%;
     }
     nav ul li a{
-        color: #ffffff;
+        font-weight: 900;
+        color: #af4154;
         position: relative;
         padding: 0 0 0 0;
     }
@@ -277,7 +278,7 @@ footer{
         font-weight: 500;
         transition: all .4s ease-in-out;
         background-size: 152% 100%;
-        background: #FF0000;
+        background: #af4154;
         border: 3px solid #000000;
     }
     .buttons:hover{
@@ -334,7 +335,7 @@ footer{
     
     
     #name-highlight{
-        color: #FF0000;
+        color: #af4154;
     }
     .content p{
         color: #ffffff;
