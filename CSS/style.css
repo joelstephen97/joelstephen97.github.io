@@ -4,6 +4,7 @@ body{
     background-image: url('/poly.svg');
     background-size: 100%;
     margin: 0px;
+    
 }
 
 /* Start remove <a> link preconceptions */
@@ -152,15 +153,30 @@ footer{
     text-align: center;
 }
 
-#portfolio_riot{
-    max-width: 65%;
-    max-height: auto;
+#image-track > .image-container > .image {
+    width: 40vmin;
+    height: 40vmin;
+    object-fit: contain;
+    object-position: center center;
 }
 
-#portfolio_riot1{
-    max-width: 65%;
-    max-height: auto;
+.image-container img {
+    background-image: url('/poly.svg');
+    width: 40vmin; 
+    height: 40vmin;
+    transition: transform 0.4s ease-in-out; 
 }
+
+.image-container img:hover {
+    transform: scale(1.3); 
+}
+
+#image-track{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4vmin;
+}
+
 
 
 
@@ -171,6 +187,7 @@ footer{
         background-image: url('/poly.svg');
         background-size: 100%;
         margin: 5% 3.5% 2%;
+        
     }
 
     .hero{
@@ -310,14 +327,28 @@ footer{
         text-align: center;
     }
     
-    #portfolio_riot{
-        max-width: 75%;
-        max-height: auto;
+    #image-track > .image-container > .image {
+        width: 80vmin;
+        height: 80vmin;
+        object-fit: contain;
+        object-position: center center;
     }
     
-    #portfolio_riot1{
-        max-width: 75%;
-        max-height: auto;
+    .image-container img {
+        width: 80vmin; 
+        height: 80vmin;
+        transition: transform 0.4s ease-in-out; 
     }
+    
+    .image-container img:hover {
+        transform: scale(1.175); 
+    }
+    
+    #image-track{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vmin;
+    }
+    
     
 }

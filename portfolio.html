@@ -19,6 +19,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/325a3d0c4c.js" crossorigin="anonymous"></script>
+    
 
     <!----CSS link ----->
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
@@ -30,12 +31,12 @@
         <div class="container-fluid col-12">
             <nav>
                 <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="/index.html#about-me">ABOUT ME</a></li>
-                    <li><a href="/index.html#experience">EXPERIENCE</a></li>
-                    <li><a href="/portfolio.html">PORTFOLIO</a></li>
-                    <li><a href="https://www.linkedin.com/in/joelthomasstephen/">LINKEDIN</a></li>
-                    <li><a href="mailto:joel.stephen.work@gmail.com">CONTACT ME</a></li>
+                    <li><a href="/index.html"> <i class="fa-solid fa-house"></i> HOME</a></li>
+                    <li><a href="/index.html#about-me"><i class="fa-solid fa-magnifying-glass"></i> ABOUT ME</a></li>
+                    <li><a href="/index.html#experience"><i class="fa-solid fa-briefcase"></i> EXPERIENCE</a></li>
+                    <li><a href="/portfolio.html"><i class="fa-solid fa-paintbrush"></i> PORTFOLIO</a></li>
+                    <li><a href="https://www.linkedin.com/in/joelthomasstephen/"><i class="fa-brands fa-linkedin"></i> LINKEDIN</a></li>
+                    <li><a href="mailto:joel.stephen.work@gmail.com"><i class="fa-solid fa-envelope"></i> CONTACT ME</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,17 +46,24 @@
     <div class="row">
         <div id="about-me" class="container-fluid col-12">
             <div class="container-fluid col content">
-                <span class="title" >PORTFOLIO</span>
+                <span class="title" >PORTFOLIO <i class="fa-solid fa-paintbrush"></i></span>
 
                 <h3><a href="https://riothere.com">1. RIOTHERE WEBSITE</a></h3>
 
-                <a href="https://riothere.com">
-                    <span>
-                        <img id="portfolio_riot1" src="riot1.JPG" alt="image of riothere website">
-                        <img id="portfolio_riot" src="riot.JPG" alt="image of riothere website">
-                    </span>
-                    
-                </a>
+                <div id="image-track">
+                    <div class="image-container">
+                        <img class="image" src="riot1.JPG" alt="image of riothere website">
+                    </div>
+                    <div class="image-container">
+                        <img class="image" src="riot.JPG" alt="image of riothere website">
+                    </div>
+                    <div class="image-container">
+                        <img class="image" src="riot2.JPG" alt="image of riothere website">
+                    </div>
+                </div>
+                        
+                
+                
                 <br>
                 <ul>
                     <li>PHP with <a href="https://otakoyi.software">Otakoyi.com</a> custom PHP software based on Laravel (2019-2022)</li>   
@@ -135,6 +143,6 @@
     </footer>
     <!-- Footer -->
 
-
+    
 </body>
 </html>
