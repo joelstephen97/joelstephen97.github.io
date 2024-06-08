@@ -21,10 +21,6 @@ export default defineNuxtConfig({
       },
     },
   },
-  // Configure Nuxt routing
-  pages: {
-    'about-me': './components/AboutMe.vue'
-  },
   target: 'static',
   router: {
     base: '/',
