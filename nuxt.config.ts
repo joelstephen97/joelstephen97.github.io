@@ -26,6 +26,9 @@ export default defineNuxtConfig({
     base: '/',
   },
   generate: {
-    fallback: true,
-  },
+    fallback: true, // if you want a single fallback page
+    exclude: [
+      /^\/dynamic-route\/.*$/ // regex to exclude dynamic routes
+    ]
+  }
 })
