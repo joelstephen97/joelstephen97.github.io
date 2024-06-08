@@ -26,4 +26,10 @@ export default defineNuxtConfig({
     'about-me': './components/AboutMe.vue'
   },
   target: 'static',
+  router: {
+    base: '/',
+  },
+  generate: {
+    fallback: true,
+  },
 })
