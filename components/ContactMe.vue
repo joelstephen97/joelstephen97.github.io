@@ -109,16 +109,16 @@ const submitForm = () => {
 
 <style>
 .bg-contact {
-  background-image: url('assets/images/contact.webp');
+  background-image: url('@/assets/images/contact.webp');
 }
 .bg-email {
-  background-image: url('assets/images/email.webp');
+  background-image: url('@/assets/images/email.webp');
 }
 .bg-linkedin {
-  background-image: url('assets/images/linkedin.webp');
+  background-image: url('@/assets/images/linkedin.webp');
 }
 .bg-github {
-  background-image: url('assets/images/github.webp');
+  background-image: url('@/assets/images/github.webp');
 }
 .bg-cover {
   background-size: cover;

@@ -3,5 +3,5 @@
 </template>
 
 <script setup lang="ts">
-import Navbar from '../components/AboutMe.vue'
+import Navbar from '@/components/AboutMe.vue'
 </script>
