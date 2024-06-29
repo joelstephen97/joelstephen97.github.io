@@ -23,12 +23,9 @@ export default defineNuxtConfig({
   },
   target: 'static',
   router: {
-    base: '/',
+    base: '/joelstephen97.github.io/',
   },
   generate: {
-    fallback: true, // if you want a single fallback page
-    exclude: [
-      /^\/dynamic-route\/.*$/ // regex to exclude dynamic routes
-    ]
+    dir: 'docs'
   }
 })
