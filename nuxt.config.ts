@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   target: 'static',
   router: {
-    base: '/',
+    base: '/joelstephen97.github.io/',
   },
   generate: {
     dir: 'docs'
