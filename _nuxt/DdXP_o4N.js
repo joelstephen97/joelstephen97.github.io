@@ -1,1 +1,0 @@
-import{_ as s}from"./DlAUqK2U.js";import{c,o as a,p,e as _,a as o}from"./CJVXOf_E.js";const t=e=>(p("data-v-7433f052"),e=e(),_(),e),n=t(()=>o("h1",null,"Welcome to My Nuxt App",-1)),d=t(()=>o("p",null,"This is the home page.",-1)),r=[n,d],i={__name:"index",setup(e){return(l,h)=>(a(),c("div",null,r))}},f=s(i,[["__scopeId","data-v-7433f052"]]);export{f as default};
