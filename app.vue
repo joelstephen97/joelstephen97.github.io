@@ -2,7 +2,7 @@
   <div>
     <Navbar/>
     <div class="pt-16">
-      <router-view />
+      <NuxtPage />
     </div>
   </div>
 </template>
