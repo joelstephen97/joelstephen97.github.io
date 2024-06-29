@@ -26,6 +26,9 @@ export default defineNuxtConfig({
     base: '/joelstephen97.github.io/',
   },
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    routes: () => require('fs').readdirSync('docs').map(file => ({
+      route: `/${file.replace('.md', '.html')}`,
+    })),
   },
 })
